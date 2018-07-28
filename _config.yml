@@ -1,6 +1,6 @@
 # Site settings
-title: 记录探索的过程
-SEOTitle: Jiaqi's playground
+title: JiaqiP
+SEOTitle: "Jiaqi's playground"
 header-img: img/home-bg.jpg
 email: pjqhappy@126.com
 description: "Document the learning paths. Let's move on together"
@@ -53,7 +53,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: Jiaqi
+disqus_username: JiaqiP
 
 # Netease settings
 netease_comment: false
@@ -65,14 +65,14 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "所有的经历都不会欺骗你"
+sidebar-about-description: "去发现热情所在"
 sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
