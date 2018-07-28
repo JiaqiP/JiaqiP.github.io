@@ -1,5 +1,5 @@
 
-# Jiaqi's blog, powered by jekyll and Hux theme (Thanks to Hux for creating this theme!) 
+# Jiaqi's blog, powered by jekyll and Hux's theme (Thanks to Hux for creating this theme!) 
 ### Below are instructions written by the developers of the theme. 
 
 
