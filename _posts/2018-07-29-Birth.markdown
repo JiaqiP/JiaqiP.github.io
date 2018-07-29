@@ -1,38 +1,50 @@
 ---
 layout:     post
-title:      "Hello 2015"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
-author:     "Hux"
+title:      "Birth"
+subtitle:   " To connect，to create"
+author:     "Jiaqi"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 生活
+    - 博客
 ---
-
-> “Yeah It's on. ”
 
 
 ## 前言
 
-Hux 的 Blog 就这么开通了。
+把自己的探索放在一种更广泛的联系中进行，让这种联系激励创造的热情。
 
-[跳过废话，直接看技术实现 ](#build) 
+--- JiaqiP终于尝试着搭建了一个博客
+
+[这里保留了Hux搭建博客的技术细节 ](#build) 
+
+[这里是fork之后的故事](#fork)
+
+
+<p id = "fork"></p>
+---
+
+## Fork之后做什么
+如果Github的使用还算熟练，搭建这个博客倒也没有太多麻烦---- 但是有一点出乎了意料：不知道是因为墙的原因还是Hux的repo里放的图片较多，本地Git的管理和远程Github的连接反反复复总是传输失败。折腾了整整一晚上后，决定下载zip文件，删除里面所有的图片，然后git init 一个新的repo，把zip文件丢进去，再publish本地repo到Github。   
+
+注意由于_config.yml文件里没有关于repository 的config，目前需要把整个repo命名为`Username`.github.io,是为github Pages默认的repo。setting里启用github pages后应当就能访问到和Hux本人博客一样的博客啦~~
+
+接下来就是按照自己的需求更改post/about/portfolio里的内容了。如果样式也想要改需要一些前端知识，不过不用紧张，也没有必要在一开始逼迫自己完成太多。
+
+有一个confuse的地方是favicon.ico为什么总是换不成我自己的，还有有些已经删除的图片依然可以显示？莫非Github pages有什么缓存？
+求教
 
 
 
-2015 年，Hux 总算有个地方可以好好写点东西了。
 
 
-作为一个程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。一是觉得大部分 Blog 服务都太丑，二是觉得不能随便定制不好玩。之前因为太懒没有折腾，结果就一直连个写 Blog 的地儿都没有。
 
-在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的[个人网站](http://huangxuan.me/portfolio)是作品集形式的（现在集成进来了），并不适合用来写博文，一不做二不休，花一天搞一个吧！
 
 
 <p id = "build"></p>
 ---
 
-## 正文
+## Theme作者Hux的搭建过程
 
 接下来说说搭建这个博客的技术细节。  
 
@@ -67,16 +79,5 @@ Theme 的 CSS 是基于 Bootstrap 定制的，看得不爽的地方直接在 Les
 最后就进入了耗时反而最长的**做图、写字**阶段，也算是进入了**写博客**的正轨，因为是类似 Hack Day 的方式去搭这个站的，所以折腾折腾着大半夜就过去了。
 
 第二天考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
-
-
-## 后记
-
-回顾这个博客的诞生，纯粹是出于个人兴趣。在知乎相关问题上回答并获得一定的 star 后，我决定把这个博客主题当作一个小小的开源项目来维护。
-
-在经历 v1.0 - v1.5 的蜕变后，这个博客主题愈发完整，不但增加了诸多 UI 层的优化（opinionated）；在代码层面，更加丰富的配置项也使得这个主题拥有了更好的灵活性与可拓展性。而作为一个开源项目，我也积极的为其完善文档与解决 issue。
-
-如果你恰好逛到了这里，希望你也能喜欢这个博客主题。
-
-—— Hux 后记于 2015.10
 
 
