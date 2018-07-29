@@ -1,12 +1,12 @@
 # Site settings
 title: JiaqiP
-SEOTitle: "Jiaqi's playground"
+SEOTitle: "JiaqiP"
 header-img: img/home-bg.jpg
 email: pjqhappy@126.com
 description: "Document the learning paths. Let's move on together"
 keyword: "jiaqi, CS, Data Science, AI"
 url:               # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl:                              # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
