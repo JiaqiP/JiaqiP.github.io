@@ -1,11 +1,12 @@
-# Mixture Model Exploration
+---
 layout:     post
-title:      "Mixture model exploration"
+title:      "Mixture Model Exploration"
 subtitle:   ""
 author:     "Jiaqi"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
-tags: data_science GE_intern
+tags: -data science
+      -GE_intern
 
 ---
 
