@@ -20,6 +20,7 @@ file:///C:/Users/dell/Documents/Tencent%20Files/1151664945/FileRecv/MobileFile/I
 
 
 Variables' quick reference:
+
 | Variable   |Meaning   | Restriction |
 | --------   | :-----:  | :----:  |
 |K  |number of components | constant
@@ -88,6 +89,7 @@ Alternating between assigning points to clusters and finding cluster centers. --
 Find out which component each point is most likely to have come from; re-estimate the components using only the points assigned to it. ----EM
 
 *Algorithm steps:*
+
 |Steps| K-Means   |EM   |
 |:--- |:--------   | :-----|
 |1  |set k; choose initial centroids| set k; initialize $\theta_1...\theta_k$, $\phi_1...\phi_k$|
@@ -96,6 +98,7 @@ Find out which component each point is most likely to have come from; re-estimat
 |4  |iterate 2 and 3 until the assignment, z, no longer change| Iterate 2 and 3 until the log-likelihood is below some threshold. Return the final parameter estimates (including mixing proportions $\phi$) and cluster probabilities: $w$ for each sample
 
 *Charasteristics:*
+
 | K-Means   |EM   |
 |:--------   | :-----|
 |largely dependent on initial assignment, no guarantee|guarentee to converge to local optimal 
@@ -291,6 +294,7 @@ Image: perhaps https://pdfs.semanticscholar.org/6b8e/8ffc6d9ef96fe61bcc92152e1f6
 Introducing prior distribution: similar as getting more valid observations of x, maximize prior probablity w.r.t $\theta$
 Then maximize posterior probablity (likelihood) of $\theta$
 $p(\theta|x)$ in same distribution family with $p(\theta)$
+
 |Distribition    | Conjuate Prior | Process Involved
 |:-- |:-- |:--
 |Berboulli | Beta |
